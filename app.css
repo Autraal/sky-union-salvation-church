@@ -92,7 +92,7 @@ width: 80%;
 height: 30%;
 position: relative;
 top: 3%;
-padding: 0 4%;
+padding: 30px 4%;
 }
 
 
@@ -116,6 +116,7 @@ font-weight: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
 
 .iframe{
@@ -202,7 +203,7 @@ flex-direction: row;
 
     #welcome .welcome .sermon-btn {
     width: 55%;
-    height: 40%;
+    height: 20%;
     padding: 20px 125px;
     }
     
