@@ -116,14 +116,92 @@ font-weight: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .iframe{
     height: 250px;
+    border: none;
+    padding: 20px 0;
+    margin: 4px 0;
 }
 
 /*End Welcome Setion */
+
+
+/* About us */
+
+#about-us{
+    width: 100%;
+    height: 100%;
+}
+
+#about-us .about-us{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 13px;
+    background-color:rgb(235, 210, 179,0.21);
+}
+#about-us .about-us .about-info{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+#about-us .about-us .about-info .about-us-h4 h4{
+    color: rgb(247,153,24);
+}
+#about-us .about-us .about-info .about-us-h1 h1{
+    color: black;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 0;
+}
+#about-us .about-us .about-info .quotes{
+    color: gray;
+    font-size: 17px;
+}
+#about-us .about-us .about-info .quotes p{
+    color: gray;
+    font-size: 17px;
+    padding: 10px 0;
+}
+
+
+#about-us .about-us .know-more-about-us {
+    padding:10px 0;
+    color: white;
+    width: 100%;
+    height: 50%;
+}
+
+#about-us .about-us .know-more-about-us h4{
+    color: white;
+    background-color: rgb(247,153,24);
+    width: 60%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    border: 1px solid rgb(247,153,24);
+    border-radius: 20px;
+}
+#about-us .about-us .know-more-about-us a{
+    color: white;
+   
+}
+
+
+
+
+
+
+
+/*End of About us */
+
 
 
 @media only screen and (min-width:1024px){
