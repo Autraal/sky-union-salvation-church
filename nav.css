@@ -1,0 +1,140 @@
+#header {
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: auto;
+}
+
+#header .header {
+  min-height: 8vh;
+  background-color: rgba(31, 30, 30, 0.24);
+}
+
+#header .header .brand-name h1 {
+  font-size: 25px;
+  font-weight: 500px;
+  color: white !important;
+}
+
+#header .header .nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  height: 100%;
+  max-width: 1200px;
+  padding: 0 10px;
+}
+
+#header .header .nav-bar .nav-list ul {
+  list-style: none;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  /* background-color: rgba(51,30,30,0.4); */
+  /* opacity: 8; */
+  left: 100%;
+  top: 0%;
+  display: flex;
+  z-index: 1;
+  overflow-x: hidden;
+  flex-direction: column;
+  transition: 1s ease left;
+  padding: 60px 30px;
+}
+
+#header .header .nav-bar .nav-list ul a {
+  letter-spacing: 0.2rem;
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+  display: block;
+  animation: shaked 2s;
+  animation-iteration-count: 3;
+  padding: 10px 0;
+  font-size: 14px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* 
+#header .header .nav-bar .nav-list ul li:hover a::after{
+transform: translate(-50%,-50%) scale(1);
+    letter-spacing: initial;
+} */
+
+#header .header .nav-bar .nav-list ul a:hover {
+  color: rgb(247, 153, 24);
+}
+
+#header .header .hamburger {
+  height: 50px;
+  width: 60px;
+  display: inline-block;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  cursor: pointer;
+  margin-right: -17px;
+}
+
+#header .header .hamburger::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  animation: hamburger-bounce 4s ease infinite;
+}
+
+#header .header .hamburger .bar {
+  height: 2px;
+  width: 30px;
+  position: relative;
+  background-color: white;
+  z-index: -1;
+}
+
+
+
+
+
+#header .header .hamburger .bar::after,
+#header .header .hamburger .bar::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 80%;
+  left: 25%;
+  background-color: hotpink;
+  transition: 0.3s ease;
+  transition-property: top, bottom;
+}
+
+
+
+
+
+#header .header .hamburger .bar::after {
+  top: 8px;
+}
+
+#header .header .hamburger .bar::before {
+  bottom: 8px;
+}
+
+#header .header .hamburger.active .bar::before {
+  bottom: 0;
+}
+
+#header .header .hamburger.active .bar::after {
+  top: 0;
+}
+
+#header .header .nav-list ul.active {
+  left: 20%;
+}
