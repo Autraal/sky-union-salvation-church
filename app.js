@@ -19,3 +19,14 @@ menuItem.forEach(
         mobileMenu.classList.toggle('active');  
     })
 })
+
+
+
+
+
+// aos animations
+
+AOS.init({
+    duration: 900,
+  })
+  
