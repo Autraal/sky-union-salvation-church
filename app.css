@@ -26,10 +26,10 @@ a{
 
 
 /* Welcome Setion */
-#welcome{
+/* #welcome{
     width: 100%;
     height: 100%;
-}
+} */
 
 #welcome .welcome{
     display: flex;
@@ -49,7 +49,6 @@ background-blend-mode: darken;
 #welcome .welcome .flex-role{
 width: 100%;
 height:50%;
-padding-bottom: 80px;
 }
 
 
@@ -134,10 +133,10 @@ font-weight: 400px;
 
 /* About us */
 
-#about-us{
+/* #about-us{
     width: 100%;
     height: 100%;
-}
+} */
 
 #about-us .about-us{
     width: 100%;
