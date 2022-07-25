@@ -90,9 +90,9 @@ color: white;
 #welcome .welcome .sermon-btn {
 width: 80%;
 height: 35%;
-position: relative;
-top: 3%;
-padding: 0px 4%;
+/* position: relative;
+top: 3%; */
+padding: 10px 4%;
 }
 
 
