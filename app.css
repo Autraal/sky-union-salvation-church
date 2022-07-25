@@ -86,21 +86,22 @@ color: white;
 }
 
 
-#welcome .welcome .sermon-btn {
+.welcome .sermon-btn {
 width: 80%;
-height: 35%;
+height: 15%;
 /* position: relative;
 top: 3%; */
 padding: 10px 4%;
 }
 
 
-#welcome .welcome .sermon-btn a{
+ .welcome .sermon-btn a{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    height:35%;
+    position: absolute;
+    width: 40%;
+    height:6%;
 color: white;
 background-color: rgb(247,153,24);
 border: 1px solid rgb(247,153,24);
@@ -176,14 +177,15 @@ font-weight: 400px;
     padding:10px 0;
     color: white;
     width: 100%;
-    height: 50%;
+    height: 20%;
 }
 
 #about-us .about-us .know-more-about-us h4{
     color: white;
     background-color: rgb(247,153,24);
-    width: 60%;
-    height: 30%;
+    position: absolute;
+    width: 50%;
+    height: 6%;
     display: flex;
     justify-content: center;
     align-items: center;
