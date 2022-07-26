@@ -39,13 +39,14 @@ a{
     flex-direction: column;
     width: 100%;
     height: 100%;
-    background-image: url(./img/xhero_1.jpg.pagespeed.ic.gZu87S_kte.webp);
+    /* background-image: url(./img/xhero_1.jpg.pagespeed.ic.gZu87S_kte.webp); */
+    background-image: url(./img/water-back.gif);
     background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 color: white;
 background-blend-mode: darken;
-
+animation: before 2s 1 ease-in-out;
 }
 
 
@@ -633,3 +634,17 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 
 }
+
+
+
+
+
+/* Keyframes for welcome */
+@keyframes before {
+    0%{filter: blur(0);
+    opacity: 4;}
+    100%{filter: blur(0.5rem);
+    opacity: 0;
+    }
+}
+/*End of Keyframes for welcome */
